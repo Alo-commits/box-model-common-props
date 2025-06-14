@@ -627,37 +627,4 @@ footer{
 }
 
 /* 
-    TO DO: add styles to the image with an ID of dog-house in this section that will:
-        - float the image to the right
-*/
-#dog-house{
-    
-}
-
-/* When you use floats, you have to be sure to clear them so that the rest of your page after the floats displays normally. Let's use the display section to clear the floats (because it is the next tag outside of our container in the HTML) */
-/* 
-    TO DO: add styles to the display section that will:
-        - clear any floats
-*/
-#section9{
-    
-}
-
-/* ------------- SECTION 9 STYLES ---------------- */
-
-
-
-@media screen and (min-width: 400px){
-    nav ul{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-@media screen and (min-width: 700px){
-    header{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1em;
-        align-items: center;
-    }
-}
+    TO DO: add styles to the image with
